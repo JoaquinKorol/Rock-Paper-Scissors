@@ -3,10 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    
+    <h1 id="title">Rock Paper Scissors</h1>
+    <h2 id="winnerText">Choose your weapon</h2>
+    <h3 id="roundText">First to score 5 points wins the game</h3>
+    <div id="scoreContainer">
+        <div id="userScoreContainer">
+            <div id="scoreUser">User Score: 0</div>
+            <div id="userSelection"><img id="userChoiceImg"></div>
+        </div>
+        <div id="computerScoreContainer">
+            <div id="scoreComputer">Computer Score: 0</div>
+            <div id="computerSelection"><img id="computerChoiceImg"></div>
+        </div>
+    </div>  
+    <div id="imgContainer">  
+        <button id="rock" name="rock"><img src="images/rock.png"></button>
+        <button id="paper" name="paper"><img src="images/paper.png"></button>
+        <button id="scissors" name="scissors"><img src="images/scissors.png"></button>
+    </div>
+    <footer>
+        <p>Copyright © 2023 JoaquinKorol</p>
+        <a href="https://github.com/joaquinkorol" target="_blank"><img src="images/github.png" class="footImg"></a>
+        <a href="https://ar.linkedin.com/in/joaquin-korol" target="_blank"><img src="images/linkedin.png" class="footImg"></a>
+        <a href="https://twitter.com/joacokorol" target="_blank"><img src="images/twitter.png" class="footImg"></a>
+    </footer>
 </body>
 </html>
