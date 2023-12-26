@@ -1,2 +1,4 @@
 # Rock-Paper-Scissors
-Rock Paper Scissors project from TOP
+Rock Paper Scissors created with HTML, CSS and JS
+
+
